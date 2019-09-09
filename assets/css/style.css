@@ -9,6 +9,7 @@ body {
     position: relative;
 }
 
+/* ------------- Header ----------- */
 header {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -33,7 +34,7 @@ header {
     
 }
 
- .menu {
+.menu {
     display: inline-block;
     float: right;
     padding: 40px 10px 10px 0;
@@ -51,29 +52,39 @@ a {
     text-decoration: none !important;
 }
 
+a:hover {
+    color: #4aaaa5;
+    background-color: #eeeee;
+    font-size: 27px;
+}
+
+/* ------------- Main Content Area  ----------- */
 .main-content {
     display: block;
     clear: both;
     background-color: #ffffff;
     width: 960px;
     margin: 20px auto;
+    overflow: auto;
 }
 
+/* ------------- Section and Section Header ----------- */
 section {
     border: 1px solid #cccccc;
     margin: 20px auto;
+    padding: 25px;
 }
 
-.me-img {
-    float: left;
+.main-hr {
+    background-color: #eeeeee;
 }
 
-.footer-hr {
-    color: #4aaaa5;
-    width: 100%;
-    height: 4px;
-    clear: both;
+/* ------------------ Article -----------------*/
+article {
+    margin-top: 25px;
 }
+
+/* ------------- Footer ----------- */
 
 footer {
     position: fixed;
@@ -101,3 +112,14 @@ footer {
     padding: 35px 0 15px 0;
     margin-top: 0;
 } 
+
+/* ---------- index.html specific rules -------------- */
+.me-img {
+    float: left;
+    padding-right: 20px;
+}
+
+.about-me {
+    font-size: 18px;
+    line-height: 27px;
+}
