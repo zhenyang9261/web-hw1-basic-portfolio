@@ -1,0 +1,79 @@
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/wet_snow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto; 
+    overflow: auto;
+}
+
+.name {
+    display: inline-block;
+    float:left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;;
+    font-weight: bold;
+    padding: 25px 35px;
+    
+}
+
+ .menu {
+    display: inline-block;
+    float: right;
+    padding: 20px 10px 10px 0;
+} 
+
+.menu-item {
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+}
+
+
+.main-content {
+    display: block;
+    clear: both;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 20px auto;
+}
+
+section {
+    border: 1px solid #cccccc;
+    margin: 20px auto;
+}
+
+.me-img {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    font-size: 12px;
+    padding: 35px 0 15px 0;
+}
