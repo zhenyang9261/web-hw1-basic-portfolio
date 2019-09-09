@@ -54,7 +54,6 @@ a {
 
 a:hover {
     color: #4aaaa5;
-    background-color: #eeeee;
     font-size: 27px;
 }
 
@@ -123,3 +122,5 @@ footer {
     font-size: 18px;
     line-height: 27px;
 }
+
+/* ---------- portfolio.html specific rules -------------- */
