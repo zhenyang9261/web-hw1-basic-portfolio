@@ -75,7 +75,7 @@ section {
 }
 
 .main-hr {
-    background-color: #eeeeee;
+    background-color: #efefef;
 }
 
 /* ------------------ Article -----------------*/
@@ -112,12 +112,35 @@ footer {
 }
 
 .about-me {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 /* ---------- portfolio.html specific rules -------------- */
+.img-row {
+    display: block;
+    padding: 10px 25px;
+    margin: 30px auto;
+}
 
+.img-container {
+    display: inline-block;
+    position: relative;
+    margin: 0 35px;
+}
+
+.img-caption {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 12px;
+}
 
 /* --------------- contact.htl specific rules --------------*/
 .contact-form {
